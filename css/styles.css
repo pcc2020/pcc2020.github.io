@@ -6,7 +6,6 @@
 
 .business-header {
   height: 450px;
-  min-height: 450px;
   /* background: url('../images/uniglasgow.jpg') center center no-repeat scroll; */
   background-color: #228888;
   -webkit-background-size: cover;
@@ -25,6 +24,10 @@
     font-size: 2.5rem;
   }
 
+  .business-header {
+    height: 350px;
+  }
+
   #pcc-title-splash-col {
     margin-top: 500px;
   }
@@ -41,30 +44,24 @@
   text-align: center;
 }
 
-#pcc-title-splash-image {
-  margin-top: 15px;
-}
-
-#pcc-title-header {
-}
-
-#pcc-title-splash {
-}
-
 html {
   position: relative;
   min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+}
+
+.navbar {
+  border-bottom: 12px solid #228888;
 }
 
 footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 40px;
 }
 
 .card {
@@ -102,4 +99,8 @@ footer {
   width: 150px;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.copyright-notice {
+  margin-top: 0px;
 }
