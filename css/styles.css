@@ -19,7 +19,7 @@
   }
 
   .business-header {
-    background-image: none;
+    background: linear-gradient(0deg, #396fa6 0%, rgba(34,136,136,1) 100%);
   }
 
   #pcc-title-splash-col {
