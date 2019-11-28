@@ -1,13 +1,14 @@
 .business-header {
   /* height: 450px; */
-  background-color: #228888;
+  /* background-color: #228888;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
+  /* 2d68a3 is ok */
 
-  background-image: url('../images/uog_skyline.svg');
-  background-position: calc(50% + 160px) 78px;
+  background: url('../images/uog_skyline.svg'), linear-gradient(0deg, #396fa6 0%, rgba(34,136,136,1) 100%);
+  background-position: calc(50% + 160px) 78px, center center;
   background-size: 2600px;
   background-repeat: no-repeat;
 }
