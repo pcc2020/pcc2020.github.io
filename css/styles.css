@@ -31,6 +31,16 @@
   color: red;
 }
 
+#registration-link-external-link-icon {
+  padding-left: 3px;
+  padding-bottom: 3px;
+  height: 16px;
+}
+
+#registration-link-external-link-icon > svg > path {
+  fill:red;
+}
+
 #pcc-title-splash-col {
   /* background-color: #343a40; */
   margin-top: 18px;
