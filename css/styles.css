@@ -8,8 +8,8 @@
   /* 2d68a3 is ok */
 
   background: url('../images/uog_skyline.svg'), linear-gradient(0deg, #396fa6 0%, rgba(34,136,136,1) 100%);
-  background-position: calc(50% + 160px) 78px, center center;
-  background-size: 2600px;
+  background-position: calc(-120px + 16%) 118px, left center;
+  background-size: 2200px;
   background-repeat: no-repeat;
 }
 
