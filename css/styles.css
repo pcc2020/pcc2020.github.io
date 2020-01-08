@@ -141,6 +141,7 @@ footer {
 }
 
 .sponsor-logo {
+  min-height: 64px;
   height: 64px;
   margin-top: 32px; 
 }
