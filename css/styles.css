@@ -140,6 +140,16 @@ footer {
   margin-bottom: auto;
 }
 
+.sponsor-logo {
+  height: 64px;
+  margin-top: 32px; 
+}
+
+#bcc-logo {
+  height: 128px;
+  margin-top: 0px;
+}
+
 .copyright-notice {
   margin-top: 0px;
 }
