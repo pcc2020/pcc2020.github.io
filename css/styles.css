@@ -13,6 +13,15 @@
   background-repeat: no-repeat;
 }
 
+td {
+width:18%;
+}
+
+.td-num-1 {
+  width:10%;
+}
+
+
 @media (max-width: 1008px) {
   .business-header h2 {
     font-size: 2.5rem;

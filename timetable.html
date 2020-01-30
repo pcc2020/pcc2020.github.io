@@ -64,75 +64,167 @@
 </nav>
 
 <div class="container">
-      <!--
-        Useful timetable table markup - for use if required!
 
-      <h1 class="my-4">Timetable</h1>
-      <table class="table table-bordered">
+      <h2 class="my-4">Timetable</h2>
+      <div class="table-responsive">
+      <table class="table table-bordered table-sm">
         <thead>
+          <!-- <tr>
+            <th scope="col" class="table-col-width-leftmost"></th>
+            <th colspan="5" scope="col">April</th>
+          </tr> -->
           <tr>
-            <th scope="col"></th>
-            <th colspan="3" scope="col">Day</th>
-          </tr>
-          <tr>
-            <th scope="row">Time</th>
-            <td>Mon 27th</td>
-            <td>Tue 28th</td>
-            <td>Wed 29th</td>
+            <th scope="row"  class="td-num-1"></th>
+            <td class="table-col-width">Monday 27th</td>
+            <td class="table-col-width">Tuesday 28th</td>
+            <td class="table-col-width">Wednesday 29th</td>
+            <td class="table-col-width">Thursday 30th</td>
+            <td class="table-col-width">Friday 1st</td>
           </tr>
         </thead>
           <tbody>
           <tr>
-            <td>0930</th>
-            <td>welcome</td>
-            <td colspan="2">2 x talks</td>
+            <td class="td-num-1">9:00am</td>
+            <td>Registration</td>
+            <td class="table-primary">Student talk</td>
+            <td class="table-primary">Student talk</td>
+            <td class="table-active" colspan="2" rowspan="20">Scottish Combinatoric Meeting. Please click <a href="http://www.dcs.gla.ac.uk/~kitty/scm/">here</a> for more information.</td>
           </tr>
           <tr>
-            <td>1000</th>
-            <td>tbc</td>
-            <td>tbc</td>
+            <td class="td-num-1">9:30am</td>
+            <td>Welcome</td>
+            <td class="table-primary">Student talk</td>
+            <td class="table-primary">Student talk</td>
           </tr>
           <tr>
-            <td>1100</th>
-            <td colspan="3">coffee break</td>
+            <td class="td-num-1">10:00am</td>
+            <td class="table-warning" rowspan="2">Invited speaker: <a href="https://www.gla.ac.uk/schools/computing/staff/jessicaenright/">Dr. Jess Enright</a></td>
+            <td class="table-warning" rowspan="2">Invited speaker: <a href="http://www.lse.ac.uk/Mathematics/people/Julia-Boettcher">Dr. Julia B&#xf6;ttcher</a></td>
+            <td>Break</td>
           </tr>
           <tr>
-              <td>1115</th>
-              <td>tbc</td>
-              <td>tbc</td>
-            </tr>
-          <tr>
-              <td>1245</th>
-              <td colspan="3">lunch</td>
-            </tr>
-          <tr>
-            <td>1345</th>
-            <td>tbc</td>
-            <td>tbc</td>
+            <td class="td-num-1">10:30am</td>
+            <td class="table-success" rowspan="4">Invited speaker: <a href="https://www.imperial.ac.uk/people/k.buzzard">Prof. Kevin Buzzard</a>
+
+            Introduction to Lean programming *</td>
           </tr>
           <tr>
-              <td>1515</th>
-              <td>tbc</td>
-              <td>tbc</td>
+            <td class="td-num-1">11:00am</td>
+            <td>Break</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+              <td class="td-num-1">11:30am</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-primary">Student talk</td>
             </tr>
           <tr>
-              <td>1530</th>
-              <td>tbc</td>
-              <td>tbc</td>
+              <td class="td-num-1">12:00pm</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-primary">Student talk</td>
             </tr>
           <tr>
-              <td>1700</th>
-              <td colspan="3">close</td>
+              <td class="td-num-1">12:30pm</td>
+              <td rowspan="2">lunch</td>
+              <td rowspan="2">lunch</td>
+              <td rowspan="2">lunch</td>
             </tr>
+          <tr>
+              <td class="td-num-1">1:00pm</td>
+            </tr>
+          <tr>
+              <td class="td-num-1">1:30pm</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-success" rowspan="4">Group work</td>
+            </tr>
+          <tr>
+              <td class="td-num-1">2:00pm</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-primary">Student talk</td>
+            </tr>
+          <tr>
+              <td class="td-num-1">2:30pm</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-warning" rowspan="2">Invited speaker: <a href="http://turnbull.mcs.st-and.ac.uk/~nik/index.shtml"">Prof. Nik Ru&#x0161;kuc</a></td>
+            </tr>
+          <tr>
+              <td class="td-num-1">3:00pm</td>
+              <td class="table-primary">Student talk</td>
+            </tr>
+          <tr>
+              <td class="td-num-1">3:30pm</td>
+              <td>Break</td>
+              <td>Break</td>
+              <td>Break</td>
+            </tr>
+          <tr>
+              <td class="td-num-1">4:00pm</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-success" rowspan="2">Invited speaker: <a href="https://github.com/b-mehta">Bhavik Mehta</a></td>
+            </tr>
+          <tr>
+              <td class="td-num-1">4:30pm</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-primary">Student talk</td>
+            </tr>
+          <tr>
+              <td class="td-num-1">5:00pm</td>
+              <td class="table-primary">Student talk</td>
+              <td class="table-primary">Student talk</td>
+              <td>End of day</td>
+            </tr>
+            <tr>
+              <td class="td-num-1">5:30pm</td>
+              <td>End of day</td>
+              <td>End of day</td>
+              <td rowspan="2"></td>
+            </tr>
+            <tr>
+              <td class="td-num-1">Evening</td>
+              <td>7:30pm Drinks reception at Glasgow City Chambers</td>
+              <td>6:00pm Conference dinner</td>
+
+            </tr>
+
         </tbody>
       </table>
+      </div>
+
+    <h3 class="my-4">* Lean programming workshop</h3>
+    <p><a href="https://www.imperial.ac.uk/people/k.buzzard">Prof. Kevin Buzzard</a></p>
+    <p>Lean is a computer proof checker. If a mathematician learns Lean's language then they will be able to type mathematical proofs into the system, and Lean will check that they are complete and correct. During the workshop we will give you a working knowledge of how to use Lean to do undergraduate level mathematics, and we will finish by looking at Lean proofs of MSc level combinatorics such as the Kruskal Katona theorem. No previous experience with Lean is required, but of course the better prepared you are on the day, the more you will get out of the workshop. If you only try one thing beforehand, you might want to make it the natural number game (link below).</p>
+
+<p>
+Relevant links:
+
+<ol>
+<li>[useful once you know what you're doing] The Lean Web Editor -- play with Lean without having to install it <a href="https://leanprover-community.github.io/lean-web-editor/">leanprover-community.github.io/lean-web-editor</a>
+
+<li>[beginner level] The natural number game <a href="http://wwwf.imperial.ac.uk/~buzzard/xena/natural_number_game/">wwwf.imperial.ac.uk/~buzzard/xena/natural_number_game</a>
+
+<li>[beginner level, but more computer-sciency] Logic and Proof <a href="https://leanprover.github.io/logic_and_proof/index.html#">leanprover.github.io/logic_and_proof/index.html</a>
+
+<li>[intermediate level] Maths challenges for the Lean curious: <a href="https://github.com/kbuzzard/xena/blob/master/Maths_Challenges/challenges.md">github.com/kbuzzard/xena/blob/master/Maths_Challenges/challenges.md</a>
+
+<li>[intermediate level] Lean example sheets for an "introduction to proof" undergraduate maths course: <a href="https://github.com/ImperialCollegeLondon/M40001_lean">github.com/ImperialCollegeLondon/M40001_lean</a>
+
+<li>[beginner level but highly computer-sciency] Theorem Proving In Lean: <a href="https://leanprover.github.io/theorem_proving_in_lean/#">leanprover.github.io/theorem_proving_in_lean</a>
+
+<li>[advanced] Combinatorics in Lean: <a href="https://b-mehta.github.io/combinatorics/">b-mehta.github.io/combinatorics/</a>
+
+</ol>
+<p>
+If you have any questions or comments before the workshop, you might be able to get help in the #new members stream in the Lean chatroom at <a href="https://leanprover.zulipchat.com/">leanprover.zulipchat.com</a> (login required, real names preferred, be nice) </p>
+
+</p>
+
+
+
     </div>
     <div class="padding-below"></div>
 
-  -->
-
-<h2 class="my-4">Timetable</h2>
-To be confirmed...
 </div>
 
 <footer class="py-2">
