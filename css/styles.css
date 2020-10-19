@@ -7,28 +7,27 @@
   -o-background-size: cover; */
   /* 2d68a3 is ok */
 
-  background: url('../images/uog_skyline.svg'), linear-gradient(0deg, #396fa6 0%, rgba(34,136,136,1) 100%);
-  background-position: calc(-120px + 16%) 118px, left center;
+  background: linear-gradient(0deg, #396fa6 0%, rgba(34, 136, 136, 1) 100%);
+  background-position: left center;
   background-size: 2200px;
   background-repeat: no-repeat;
 }
 
 td {
-width:18%;
+  width: 18%;
 }
 
 .td-num-1 {
-  width:10%;
+  width: 10%;
 }
 
-
 @media (max-width: 1008px) {
-  .business-header h2 {
-    font-size: 2.5rem;
+  .business-header h3 {
+    font-size: 2rem;
   }
 
   .business-header {
-    background: linear-gradient(0deg, #396fa6 0%, rgba(34,136,136,1) 100%);
+    background: linear-gradient(0deg, #396fa6 0%, rgba(34, 136, 136, 1) 100%);
   }
 
   #pcc-title-splash-col {
@@ -47,12 +46,12 @@ width:18%;
 }
 
 #registration-link-external-link-icon > svg > path {
-  fill:red;
+  fill: red;
 }
 
 #pcc-title-splash-col {
   /* background-color: #343a40; */
-  margin-top: 18px;
+  margin-top: 68px;
   text-align: center;
 }
 
@@ -91,18 +90,17 @@ footer {
 }
 
 .padding-below {
-  padding-bottom: 30px
+  padding-bottom: 30px;
 }
 
 .padding-below-sml {
-  padding-bottom: 10px
+  padding-bottom: 10px;
 }
 
 #map-view {
   width: 425px;
   height: 350px;
 }
-
 
 @media (max-width: 1008px) {
   #map-view {
@@ -120,11 +118,11 @@ footer {
 }
 
 .thumb-post {
-  object-fit: cover; 
+  object-fit: cover;
   object-position: top;
-  width: 150px;
-  height: 200px;
-  margin-bottom: 8px;
+  /* width: 100px; */
+  height: 120px;
+  /* margin-bottom: 8px; */
 }
 
 .organisers-about-text-div ul {
@@ -133,13 +131,13 @@ footer {
 
 .thumb-post-proj {
   width: 150px;
-  object-fit: contain; 
+  object-fit: contain;
   object-position: center;
 }
 
 .thumb-post-proj-sml {
   width: 100px;
-  object-fit: contain; 
+  object-fit: contain;
   object-position: center;
 }
 
@@ -151,7 +149,7 @@ footer {
 
 .sponsor-logo-abcdef {
   height: 64px;
-  margin-top: 32px; 
+  margin-top: 32px;
 }
 
 #bcc-logo {
