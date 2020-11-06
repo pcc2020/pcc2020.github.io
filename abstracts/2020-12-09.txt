@@ -1,0 +1,17 @@
+DATE: 09 December 2020
+
+SPEAKER: Joseph Hyde
+
+TITLE: A Pósa-type degree sequence result for perfect matchings in 3-graphs
+
+ABSTRACT: The study of asymptotic minimum degree thresholds that force
+matchings and tilings in hypergraphs is a lively area of research in
+combinatorics. A key breakthrough in this area was a result of H\`{a}n, Person
+and Schacht who proved that the asymptotic minimum vertex degree threshold for
+a perfect matching in an $n$-vertex $3$-graph is
+$\left(\frac{5}{9}+o(1)\right)\binom{n}{2}$. In this talk we present an
+improvement of this result, giving a family of degree sequence results, all of
+which imply the result of H\`{a}n, Person and Schacht, and additionally allow
+one third of the vertices to have degree $\frac{1}{9}\binom{n}{2}$ below this
+threshold. Furthermore, we show that this result is, in some sense, tight.
+Joint work with Candida Bowtell.
