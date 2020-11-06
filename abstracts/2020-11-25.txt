@@ -1,0 +1,19 @@
+DATE: 25 November 2020
+
+SPEAKER: Alberto Espuny Díaz (https://sites.google.com/view/alberto-espuny-diaz/)
+
+TITLE: Perturbing graphs by a random regular graph: Hamiltonicity and pancyclicity
+
+ABSTRACT: The study of randomly perturbed graphs has received a lot of
+attention in recent years. In this area, we consider the union of a dense
+deterministic graph $H$ (usually with some minimum degree condition) and a
+random graph $G$, and the main goal is to improve threshold results for random
+graphs by considering the union with $H$: there are many results showing that,
+in order for $H\cup G_{n,p}$ to satisfy a given property $\mathcal{P}$, the
+minimum $p$ which is required is substantially smaller than that required for
+$G_{n,p}$ itself.
+
+In this talk, I will introduce the model of randomly perturbed graphs and some
+of the results that have been obtained so far, and then I will present some new
+results about Hamiltonicity and pancyclicity when we let $G$ be a random
+regular graph. This is joint work with António Girão.
