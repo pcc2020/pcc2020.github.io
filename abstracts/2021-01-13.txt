@@ -11,4 +11,3 @@ constant edge-probabilities. The main new proof ingredient is a
 Pippenger-Spencer type edge-coloring result for random hypergraphs with large
 uniformities, i.e., edges of size O(log n). Based on joint work with Kalen
 Patton and Lutz Warnke.
-
