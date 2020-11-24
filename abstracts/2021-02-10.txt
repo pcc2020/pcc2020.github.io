@@ -1,0 +1,22 @@
+DATE: 10 February 2021
+
+SPEAKER: Vincent Pfenninger
+
+TITLE: Large monochromatic tight cycles in 2-edge-coloured complete 4-uniform
+hypergraphs
+
+ABSTRACT: A 4-uniform tight cycle is a 4-uniform hypergraph with a cyclic
+ordering of its vertices such that its edges are precisely the sets of 4
+consecutive vertices in the ordering.  Given a 2-edge-coloured complete
+4-uniform hypergraph, we consider the following two questions.  
+
+1) What is the length of the longest monochromatic tight cycle? In other words,
+what is the Ramsey number for tight cycles?  
+
+2) How many tight cycles are needed to partition the vertex set? This is a
+generalisation of Lehel's conjecture for graphs.  
+
+In this talk, I will highlight a common approach, which yields some asymptotic
+results for these two questions. The approach is based on Łuczak's connected
+matching method together with a novel auxiliary graph, which I call the
+blueprint. This is joint work with Allan Lo.
