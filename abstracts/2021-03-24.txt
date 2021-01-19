@@ -1,0 +1,7 @@
+DATE: 24 March 2021
+
+SPEAKER: Amarja Kathapurkar
+
+TITLE: Embedding spanning trees in dense directed graphs
+
+ABSTRACT:
