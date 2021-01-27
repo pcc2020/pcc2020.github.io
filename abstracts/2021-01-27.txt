@@ -1,0 +1,15 @@
+DATE: 27 January 2021
+
+SPEAKER: Laura Johnson
+
+TITLE: An introduction to External Difference Families and Strong External
+Difference Families, and their applications to cryptography
+
+ABSTRACT: This talk will introduce External Difference Families (EDFs); a type
+of combinatorial structure consisting of disjoint subsets of a group G, such
+that each element occurs exactly lambda times as a difference between elements
+of distinct sets. Strong External Difference Families (SEDFs) will also be
+introduced; these are EDFs with extra constraints on the exact number of times
+that each element must occur as a difference between particular sets.  We will
+cover some basic constructions of both structure's and briefly explore their
+applications to cryptography.

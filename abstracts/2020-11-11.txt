@@ -1,0 +1,24 @@
+DATE: 11 November 2020
+
+SPEAKER: Deniz Sarikaya (http://www.denizsarikaya.de/)
+
+TITLE: A primer to topological infinite graph theory and how to force
+Hamiltonicity in locally finite graphs via forbidden induced subgraphs
+
+ABSTRACT: The study of Hamiltonian graphs, i.e. graphs having a cycle that
+contains all vertices of the graph, is a central theme of finite graph theory.
+For infinite graphs such a definition cannot work, since cycles are finite. We
+shall debate possible concepts of Hamiltonicity for infinite graphs and
+eventually follow the topological approach by Diestel and Kühn [1,2], which
+allows to generalize several results about being a Hamiltonian graph to locally
+finite graphs, i.e. graphs where each vertex has finite degree. An infinite
+cycle of a locally finite connected graph G is defined as a homeomorphic image
+of the unit circle S^1  in the Freudenthal compactification |G| of G. Now we
+call G Hamiltonian if there is an infinite cycle in |G| containing all vertices
+of G.  We examine how to force Hamiltonicity via forbidden induced subgraphs
+and present recent extensions of results for Hamiltonicity in finite claw-free
+graphs to locally finite ones.  This is joint work with Karl Heuer.
+
+Bibliography
+[1] R. Diestel and D. Kühn, On infinite cycles I, Combinatorica 24 (2004), pp. 69-89.
+[2] R. Diestel and D. Kühn, On infinite cycles II, Combinatorica 24 (2004), pp. 91-116.

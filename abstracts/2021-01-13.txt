@@ -1,0 +1,13 @@
+DATE: 13 January 2021
+
+SPEAKER: He Guo (https://people.math.gatech.edu/~hguo70/)
+
+TITLE: Prague dimension of random graphs
+
+ABSTRACT: The Prague dimension of graphs was introduced by Nesetril, Pultr and
+Rodl in the 1970s. Proving a conjecture of Furedi and Kantor, we show that the
+Prague dimension of the binomial random graph is typically of order n/log n for
+constant edge-probabilities. The main new proof ingredient is a
+Pippenger-Spencer type edge-coloring result for random hypergraphs with large
+uniformities, i.e., edges of size O(log n). Based on joint work with Kalen
+Patton and Lutz Warnke.

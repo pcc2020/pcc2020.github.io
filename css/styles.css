@@ -1,0 +1,162 @@
+.business-header {
+  /* height: 450px; */
+  /* background-color: #228888;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; */
+  /* 2d68a3 is ok */
+
+  background: linear-gradient(0deg, #396fa6 0%, rgba(34, 136, 136, 1) 100%);
+  background-position: left center;
+  background-size: 2200px;
+  background-repeat: no-repeat;
+}
+
+td {
+  width: 18%;
+}
+
+.td-num-1 {
+  width: 10%;
+}
+
+@media (max-width: 1008px) {
+  .business-header h3 {
+    font-size: 2rem;
+  }
+
+  .business-header {
+    background: linear-gradient(0deg, #396fa6 0%, rgba(34, 136, 136, 1) 100%);
+  }
+
+  #pcc-title-splash-col {
+    margin-top: 500px;
+  }
+}
+
+#navbar-title-bullet {
+  color: red;
+}
+
+#registration-link-external-link-icon {
+  padding-left: 3px;
+  padding-bottom: 3px;
+  height: 16px;
+}
+
+#registration-link-external-link-icon > svg > path {
+  fill: red;
+}
+
+#pcc-title-splash-col {
+  /* background-color: #343a40; */
+  margin-top: 68px;
+  text-align: center;
+}
+
+#pcc-title-splash-image {
+  margin-bottom: 10px;
+}
+
+#pcc-title-splash {
+  margin-bottom: 32px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 40px;
+}
+
+.navbar {
+  border-bottom: 12px solid #228888;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  color: grey;
+}
+
+.card {
+  height: 100%;
+}
+
+.padding-below {
+  padding-bottom: 30px;
+}
+
+.padding-below-sml {
+  padding-bottom: 10px;
+}
+
+#map-view {
+  width: 425px;
+  height: 350px;
+}
+
+@media (max-width: 1008px) {
+  #map-view {
+    width: 325px;
+    height: 250px;
+  }
+}
+
+#image-of-sawb {
+  padding-bottom: 12px;
+}
+
+#image-of-sawb > img {
+  width: 400px;
+}
+
+.thumb-post {
+  object-fit: cover;
+  object-position: top;
+  /* width: 100px; */
+  height: 120px;
+  /* margin-bottom: 8px; */
+}
+
+.organisers-about-text-div ul {
+  margin-bottom: 0px;
+}
+
+.thumb-post-proj {
+  width: 150px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.thumb-post-proj-sml {
+  width: 100px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.proj-cont {
+  width: 150px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.sponsor-logo-abcdef {
+  height: 64px;
+  margin-top: 32px;
+}
+
+#bcc-logo {
+  height: 128px;
+  margin-top: 0px;
+}
+
+.copyright-notice {
+  margin-top: 0px;
+}

@@ -1,0 +1,23 @@
+DATE: 07 April 2021
+
+SPEAKER: Ni Luh Dewi Sintiari
+
+TITLE: A survey on even-hole-free graphs
+
+ABSTRACT: A graph is even-hole-free if it does not contain any hole of even
+length as an induced subgraph (induced means the subgraph is obtained by
+deleting vertices). The first major structural study of the class of
+even-hole-free graphs was done by Conforti, Cornuejols, Kapoor, and Vuskovic
+(2002), and it attracts much attention lately. The study of this class was
+initially motivated by perfect graphs since these two classes are closely
+related. They have a similar decomposition theorem, and in fact, the
+decomposition technique which was developed during the study of even-hole-free
+graphs led to the proof of the celebrated Strong Perfect Graph Conjecture by
+Chudnovsky, Seymour, Robinson, and Thomas (proved in 2002). The main open
+questions in this class are whether graph coloring and maximum independent set
+problems are polynomially solvable. In this talk, we will describe the
+structural characterizations of even-hole-free graphs focusing on the width
+parameters and their algorithmic consequences, and we will survey some prior
+and new results related to the class. This talk is based on joint work with
+Pierre Aboulker, Isolde Adler, Eun Jung Kim, Marcin Pilipczuk, Stephan
+Thomasse, and Nicolas Trotignon.
